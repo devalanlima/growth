@@ -20,7 +20,7 @@ const action = ()=> emit('action')
     height: 40px;
     flex-shrink: 0;
     border-radius: 12px;
-    background: #F5F5F5;
+    background: var(--color-six);
     position: relative;
     display: flex;
     gap: 4px;
