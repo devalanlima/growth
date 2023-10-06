@@ -119,7 +119,6 @@ a {
 	cursor: pointer;
 }
 
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -163,12 +162,3 @@ table {
 	border-spacing: 0;
 }
 
-:root {
-	--font-Poppins: 'Poppins', sans-serif;
-	--color-one: #fff;
-	--color-two: #131316;
-	--color-three: #4891FF;
-	--color-four: #DAF4FE;
-	--color-five: #494A4D;
-	--color-six: #F5F5F5;
-}
