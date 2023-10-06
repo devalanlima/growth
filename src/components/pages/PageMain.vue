@@ -4,6 +4,9 @@
     </header>
     <main class="base-main">
         <OrgIntroduction/>
+        <OrgEssentials 
+        class="essentials"
+        />
     </main>
     <footer>
         
@@ -12,6 +15,7 @@
 
 <script setup lang="ts">
 import OrgBaseNavbar from '../organisms/OrgBaseNavbar.vue';
+import OrgEssentials from '../organisms/OrgEssentials.vue';
 import OrgIntroduction from '../organisms/OrgIntroduction.vue';
 
 
@@ -25,5 +29,9 @@ import OrgIntroduction from '../organisms/OrgIntroduction.vue';
 .base-main{
     margin-top: 84px;
     padding: 0 16px;
+}
+
+.essentials{
+    margin-top: 63px;
 }
 </style>
