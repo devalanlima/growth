@@ -15,6 +15,7 @@ import PageMain from './components/pages/PageMain.vue';
 	--color-four: #DAF4FE;
 	--color-five: #494A4D;
 	--color-six: #F5F5F5;
+	--color-seven: #DFDEE2
 }
 
 h1,
@@ -45,6 +46,12 @@ h3 {
 	font-size: 24px;
 	line-height: 120%;
 	/* 28.8px */
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 120%; /* 24px */
 }
 
 p {
