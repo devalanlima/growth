@@ -18,6 +18,8 @@
             bg-color="color-two"
             />
         </div>
+
+        <MolIntroductionImages class="introduction-images"/>
     </section>
 </template>
 
@@ -25,6 +27,7 @@
 import AtomBaseButton from '../atoms/AtomBaseButton.vue';
 import IconWebCam from '../atoms/Icons/IconWebCam.vue';
 import MolContenth1 from '../molecules/MolContentH1.vue';
+import MolIntroductionImages from '../molecules/MolIntroductionImages.vue';
 </script>
 
 <style scoped>
@@ -38,5 +41,9 @@ import MolContenth1 from '../molecules/MolContentH1.vue';
     display: flex;
     flex-direction: column;
     gap: 19px;
+}
+
+.introduction-images{
+    margin-top: 28px;
 }
 </style>
