@@ -4,9 +4,7 @@
     </header>
     <main class="base-main">
         <OrgIntroduction/>
-        <OrgEssentials 
-        class="essentials"
-        />
+        <OrgEssentials/>
     </main>
     <footer>
         
@@ -29,9 +27,9 @@ import OrgIntroduction from '../organisms/OrgIntroduction.vue';
 .base-main{
     margin-top: 84px;
     padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
 }
 
-.essentials{
-    margin-top: 63px;
-}
 </style>
