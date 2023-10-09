@@ -15,7 +15,7 @@ import PageMain from './components/pages/PageMain.vue';
 	--color-four: #DAF4FE;
 	--color-five: #494A4D;
 	--color-six: #F5F5F5;
-	--color-seven: #DFDEE2
+	--color-seven: #DFDEE2;
 }
 
 h1,
