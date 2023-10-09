@@ -5,7 +5,7 @@
 
         <MolDashboardAndReporting/>
 
-        <MolAdvantajes 
+        <Moladvantages 
         v-for="item in items"
         :key="item.title"
         :base-title="item.title"
@@ -18,7 +18,7 @@
 
 <script setup lang="ts">
 import MolContentH2 from '../molecules/MolContentH2.vue';
-import MolAdvantajes from '../molecules/MolAdvantajes.vue';
+import Moladvantages from '../molecules/MolAdvantages.vue';
 import MolDashboardAndReporting from '../molecules/MolDashboardAndReporting.vue';
 import { ref } from "vue";
 
