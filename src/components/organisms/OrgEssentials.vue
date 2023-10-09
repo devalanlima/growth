@@ -1,80 +1,68 @@
 <template>
     <section class="wrapper-content">
-        <MolContentH2 
-        class="content-h2"
-        base-title="Essential tools for propelling your business forward"
-        base-text="Streamline your operations, boost productivity and drive growth with our essential tools" 
+        <MolContentH2 class="content-h2" base-title="Essential tools for propelling your business forward"
+            base-text="Streamline your operations, boost productivity and drive growth with our essential tools" />
+
+        <MolDashboardAndReporting/>
+
+        <MolAdvantajes 
+        v-for="item in items"
+        :key="item.title"
+        :base-title="item.title"
+        :base-text="item.text"
+        :url-image="item.urlImage" 
+        :alt-image="item.altImage" 
         />
-
-        <div class="wrapper-down">
-            <MolContentH3
-            class="content-h3"
-            base-title="Dashboard and reporting"
-            base-text="Gain valuable insights with real-time monitoring. Track key performance indicators and make data-driven decisions. "
-            />
-            <ul>
-                <li v-for="item in items">
-                    <MolAccordion
-                    :base-title="item.title"
-                    :base-text="item.text"                    
-                    :after-icon="IconArrow"
-                    />
-                </li>
-            </ul>
-        </div>
     </section>
-
-    <div class="statements-wrapper">
-        <img
-        class="statements-image"
-        src="/statements.png"
-        alt="A statement sales graph with de text: 'Statements are automatically generated in PDF by the 10th of each month'"
-        >
-    </div>
 </template>
 
 <script setup lang="ts">
-import IconArrow from '../atoms/Icons/IconArrow.vue';
 import MolContentH2 from '../molecules/MolContentH2.vue';
-import MolContentH3 from '../molecules/MolContentH3.vue';
-import MolAccordion from '../molecules/MolAccordion.vue';
+import MolAdvantajes from '../molecules/MolAdvantajes.vue';
+import MolDashboardAndReporting from '../molecules/MolDashboardAndReporting.vue';
 import { ref } from "vue";
 
 const items = ref([
     {
-        title: "Real-time monitoring",
-        text: "View live data and performance metrics."
+        title: 'Business communications',
+        text: 'Keep track of your contacts, schedule appointments and never miss a follow-up with our powerful contact management solution. Store and organise contact information for clients, partners, and potential investors.',
+        urlImage: '/business-communications_small.png',
+        altImage: 'picture of a woman holding a video conference'
     },
     {
-        title: "Data visualization",
-        text: "have real-time data visualization"
+        title: 'Communication tools',
+        text: 'Keep your team informed and on the same page with our real-time communication tools for messaging, video conferencing and more.',
+        urlImage: '/messages_small.png',
+        altImage: 'message app'
     },
     {
-        title: "Alerts and notifications",
-        text: "Don't miss anything with our notification center"
-    },
+        title: 'Boost productivity and efficiency',
+        text: 'Organize, delegate and keep track of tasks with our easy-to-use task management system. Create and manage to-do lists and tasks, and assign them to team members.',
+        urlImage: '/todolist_small.png',
+        altImage: 'to do list app'
+    }
 ])
-
 
 </script>
 
 <style scoped>
-.wrapper-content{
+.wrapper-content {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.wrapper-down{
+.wrapper-down {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.statements-wrapper{
+.statements-wrapper {
     overflow: hidden;
 }
-.statements-image{
+
+.statements-image {
     width: 100%;
     height: auto;
     scale: 1.2;
