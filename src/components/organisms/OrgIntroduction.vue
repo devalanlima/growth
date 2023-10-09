@@ -19,7 +19,11 @@
             />
         </div>
 
-        <MolIntroductionImages class="introduction-images"/>
+        <img 
+        class="introduction-image"
+        src="/introduction_small.png" 
+        alt="some solutions to grow your startup"
+        >
     </section>
 </template>
 
@@ -27,7 +31,6 @@
 import AtomBaseButton from '../atoms/AtomBaseButton.vue';
 import IconWebCam from '../atoms/Icons/IconWebCam.vue';
 import MolContenth1 from '../molecules/MolContentH1.vue';
-import MolIntroductionImages from '../molecules/MolIntroductionImages.vue';
 </script>
 
 <style scoped>
@@ -43,7 +46,7 @@ import MolIntroductionImages from '../molecules/MolIntroductionImages.vue';
     gap: 19px;
 }
 
-.introduction-images{
+.introduction-image{
     margin-top: 28px;
 }
 </style>
