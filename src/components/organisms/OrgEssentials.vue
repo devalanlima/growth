@@ -78,7 +78,6 @@ const items = ref([
     width: 100%;
     height: auto;
     scale: 1.2;
-    margin-top: 61px;
     margin-left: -10px;
 }
 </style>
