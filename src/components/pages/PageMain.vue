@@ -8,6 +8,9 @@
             <OrgEssentials/>
         </div>
         <OrgHowItWorks/>
+        <div class="wrapper-first">
+            <OrgPricing/>
+        </div>
     </main>
     <footer>
         
@@ -19,6 +22,7 @@ import OrgBaseNavbar from '../organisms/OrgBaseNavbar.vue';
 import OrgEssentials from '../organisms/OrgEssentials.vue';
 import OrgHowItWorks from '../organisms/OrgHowItWorks.vue';
 import OrgIntroduction from '../organisms/OrgIntroduction.vue';
+import OrgPricing from '../organisms/OrgPricing.vue';
 
 
 </script>
