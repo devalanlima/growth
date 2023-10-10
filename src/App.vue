@@ -21,7 +21,6 @@ import PageMain from './components/pages/PageMain.vue';
 h1,
 h2,
 h3 {
-	color: var(--color-two);
 	font-feature-settings: 'clig' off, 'liga' off;
 	font-family: Poppins;
 	font-style: normal;
@@ -55,7 +54,6 @@ h4 {
 }
 
 p {
-	color: var(--color-five);
 	font-family: Poppins;
 	font-size: 16px;
 	font-style: normal;
@@ -63,5 +61,10 @@ p {
 	line-height: 160%;
 	margin: 0;
 	/* 25.6px */
+}
+
+hr {
+    width: 100%;
+    border:1px solid;
 }
 </style>
