@@ -21,8 +21,12 @@ const props = defineProps<Props>();
     gap: 8px;
 }
 .base-title {
+    color: var(--color-two);
     margin: 0;
-    font-size: 24px;
     line-height: 120%; /* 28.8px */
+}
+
+.base-paragraph{
+    color: var(--color-five);
 }
 </style>

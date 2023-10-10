@@ -22,6 +22,7 @@ const props = defineProps<Props>();
 }
 
 .base-title {
+    color: var(--color-two);
     text-align: center;
     line-height: 120%;
     margin: 0;
@@ -30,5 +31,6 @@ const props = defineProps<Props>();
 
 .base-paragraph {
     text-align: center;
+    color: var(--color-five);
 }
 </style>

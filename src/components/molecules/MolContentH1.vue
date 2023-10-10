@@ -22,6 +22,7 @@ const props = defineProps<Props>();
 }
 
 .base-title {
+    color: var(--color-two);
     text-align: center;
     margin: 0;
 }
