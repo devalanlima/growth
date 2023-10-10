@@ -15,7 +15,7 @@
             :is="props.beforeIcon"
             />
         </button>
-        <p v-if="isOpen">{{ props.baseText }}</p>
+        <p v-if="isOpen" class="base-paragraph">{{ props.baseText }}</p>
     </div>
 </template>
 
@@ -54,5 +54,9 @@ const props = defineProps<Props>()
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+.base-paragraph{
+    color: var(--color-five);
 }
 </style>
