@@ -22,8 +22,7 @@ import MolHowWorksVideo from "../molecules/MolHowWorksVideo.vue";
 }
 
 .base-hr {
-    width: 343px;
-    border:1px solid var(--color-five);
+    border-color: var(--color-five);
 }
 </style>
 
