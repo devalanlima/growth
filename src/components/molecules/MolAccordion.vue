@@ -6,7 +6,7 @@
     >
         <button class="title-wrapper" @click="isOpen = !isOpen">
             <h4 class="title">{{ props.baseTitle }}</h4>
-            <component 
+            <component
             v-if="isOpen"
             :is="props.afterIcon"
             />
@@ -52,8 +52,9 @@ const props = defineProps<Props>()
 .title-wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     width: 100%;
+    gap: 12px;
 }
 
 .base-paragraph{
