@@ -10,6 +10,8 @@
         <OrgHowItWorks/>
         <div class="wrapper-first">
             <OrgPricing/>
+            <hr class="base-hr">
+            <OrgFrequentlyQuestions/>
         </div>
     </main>
     <footer>
@@ -20,6 +22,7 @@
 <script setup lang="ts">
 import OrgBaseNavbar from '../organisms/OrgBaseNavbar.vue';
 import OrgEssentials from '../organisms/OrgEssentials.vue';
+import OrgFrequentlyQuestions from '../organisms/OrgFrequentlyQuestions.vue';
 import OrgHowItWorks from '../organisms/OrgHowItWorks.vue';
 import OrgIntroduction from '../organisms/OrgIntroduction.vue';
 import OrgPricing from '../organisms/OrgPricing.vue';
