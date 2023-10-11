@@ -48,9 +48,10 @@ h3 {
 }
 
 h4 {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 400;
-	line-height: 120%; /* 24px */
+	line-height: 150%; /* 27px */
+	letter-spacing: -0.18px;
 }
 
 p {
@@ -66,5 +67,6 @@ p {
 hr {
     width: 100%;
     border:1px solid;
+	opacity: .2;
 }
 </style>
