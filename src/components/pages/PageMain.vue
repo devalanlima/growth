@@ -13,6 +13,7 @@
             <hr class="base-hr">
             <OrgFrequentlyQuestions/>
         </div>
+        <OrgBaseFooter/>
     </main>
     <footer>
         
@@ -20,6 +21,7 @@
 </template>
 
 <script setup lang="ts">
+import OrgBaseFooter from '../organisms/OrgBaseFooter.vue';
 import OrgBaseNavbar from '../organisms/OrgBaseNavbar.vue';
 import OrgEssentials from '../organisms/OrgEssentials.vue';
 import OrgFrequentlyQuestions from '../organisms/OrgFrequentlyQuestions.vue';
